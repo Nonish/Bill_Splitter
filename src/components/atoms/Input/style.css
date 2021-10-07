@@ -1,0 +1,37 @@
+        input {
+            width: 100%;
+            padding: 1px 10px 1px 30px;
+            margin: 10px 0px;
+            text-align: right;
+            background-color: hsl(189, 41%, 97%);
+            border: none;
+            color: hsl(183, 100%, 15%);
+            font-size: 24px;
+            font-weight: 700;
+            border-radius: 5px;
+            outline: none;
+            font-family: space mono;
+        }
+        
+        label {
+            font-size: 12px;
+            font-weight: 700;
+        }
+        
+        .button-field p {
+            color: hsl(183, 100%, 15%);
+        }
+        
+        .button-field input {
+            border: 1px solid black;
+            width: 50%;
+        }
+        
+        .button-group {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        input[type=number] {
+            -moz-appearance: textfield;
+        }

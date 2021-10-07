@@ -1,0 +1,64 @@
+.right-side {
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    padding: 24px 24px;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(183, 100%, 15%);
+    justify-content: space-between;
+}
+
+table {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.first-col {
+    padding: 10px 0px;
+}
+
+.first-col label {
+    display: flex;
+    flex-direction: column;
+    color: hsl(0, 0%, 100%);
+    padding-top: 5px;
+}
+
+.first-col span {
+    font-size: 10px;
+    color: hsl(172, 67%, 45%);
+}
+
+.second-col label {
+    font-size: 40px;
+    margin: 10px 0px;
+    color: hsl(172, 67%, 45%);
+    font-weight: bold;
+}
+
+.reset-btn button {
+    width: 100%;
+    margin: 10px 0px;
+    color: hsl(183, 100%, 15%);
+    background-color: hsl(172, 67%, 45%);
+    font-size: 1rem;
+    padding: 10px 0px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+@media all and (max-width:768px) {
+    .right-side {
+        margin-top: 10px;
+        width: 100%;
+    }
+}

@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+import Splitter from './components/organism/Splitter/Splitter'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Splitter />
   </React.StrictMode>,
   document.getElementById('root')
 );
